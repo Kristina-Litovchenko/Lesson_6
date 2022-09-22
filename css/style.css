@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@font-face{
+	font-family: "Lato" ;
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"),url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Lato" ;
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"),url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face{
+	font-family: "Lato" ;
+	src: url("../fonts/Lato-Black.woff2") format("woff2"),url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+body{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+}
+.content {
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 20px
+}
+.list .text{
+	margin: 0px 0px 24px 0px ;
+}
+.list li{
+	padding-left: 45px;
+	margin-bottom: 10px ;
+}
+.content-header {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 60px;
+	margin: 0 0 65px 0;
+}
+.content-image img{
+	max-width: 100%;
+	margin-bottom: 50px;
+}
+.content-text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 24px;
+}
+.content-two-paragraphs{
+	margin-bottom: 40px;
+}
+.content-two-paragraphs p{
+	padding: 0px 0px 15px 0px;
+}
+.lorem {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 45px;
+	padding-left: 58px;
+
+}
+
+
+.experiment {
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 50px;
+	
+}
+
+.block {
+	background-color: blue;
+	max-height: 100px;
+	overflow: hidden;
+	border: 5px dotted yellow;
+	margin-bottom: 20px;
+
+}
+.inline {
+	background-color: yellow;
+	min-height: 100px;
+	overflow: scroll;
+	margin-bottom: 20px;
+}
+.info{
+background-color: chocolate;
+max-height: 200px;
+overflow: auto;
+outline: darkred;
+margin-bottom: 20px;
+}
+
+.example-string {
+	display: block;
+	background-color: red;
+	border: 5px solid black;
+	margin-bottom: 20px;
+}
+.text-text{
+	background-color: chocolate;
+	display: inline-block;
+}
+.box{
+	background-color: darkolivegreen;
+}
+.experiment img {
+	display: block;
+ 	max-width: 100%;
+	opacity: 0.5;
+}
+
+.section {
+	background-color: burlywood;
+	max-width: 750px;
+	margin: 0 auto;
+}
+.lora{
+	margin-bottom: 10px;
+	
+}
+.link {
+	display: inline-block;
+	color: blue;
+	margin-bottom: 10px;
+
+}
+.example{
+	background-color: darkkhaki;
+	outline: 5px solid black;
+	margin-bottom: 10px;
+}
+.border{
+	background-color: coral;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.string{
+ background-color: cadetblue;
+ border-radius: 10px 10px 15px 15px;
+ margin-bottom: 10px;
+}
+.circle{
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+	box-shadow: 3px 3px 2px 3px black, inset 3px 2px 2px 2px black;
+}
+
+
+
